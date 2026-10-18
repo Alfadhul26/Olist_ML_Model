@@ -24,7 +24,7 @@ st.write("Deployment: the customer enters a category and a state; other inputs a
 #with st.expander("Show details"):
     #st.write("Here are the details...")
 #st.image( )
-data = pd.read_csv("01_Data/olist_delivery_model.csv")
+data = pd.read_csv("olist_delivery_model.csv")
 
 #added animation to process the data smoothly
 
