@@ -6,9 +6,12 @@ import numpy as np
 # Main page content
 st.markdown("# Olist Delivery Time Prediction")
 st.sidebar.markdown("# Main page")
-<img width="300" height="350" alt="image" src="https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51" />
+# Display Olist image
+st.image(
+    "https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51",
+    width=300
+)
 
-#st.image(https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51)
 #main points of the application
 header = st.container()
 header.write("Aim - Predict how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public Olist Brazilian e-commerce dataset (96,470 delivered orders, 2016–2018)")
