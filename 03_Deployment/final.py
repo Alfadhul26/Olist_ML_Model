@@ -10,7 +10,7 @@ from model import predict_delivery
 st.title("Olist")
 st.header("Predict Delivery Time")
 
-bundle = joblib.load("delivery_model.pkl")
+bundle = joblib.load("03_Deployment/delivery_model.pkl")
 
 # Select product category and customer state
 category = st.selectbox(
