@@ -13,7 +13,7 @@ st.sidebar.markdown("# Main page")
 header = st.container()
 header.write("Aim - Predict how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public Olist Brazilian e-commerce dataset (96,470 delivered orders, 2016–2018)")
 
-st.write("Methods - ")
+st.header("Methods - ")
 
 #features of the application
 
