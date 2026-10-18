@@ -16,17 +16,14 @@ st.write("Methods - ")
 #features of the application
 
 st.write("Data: orders, items, products, sellers, customers and payments joined into one row per order.")
-st.write("Missing values: filled with the median (numbers) or most common value (categories); no orders are dropped.
- ")
+st.write("Missing values: filled with the median (numbers) or most common value (categories); no orders are dropped.")
 st.write("Split: 64% train, 16% validation, 20% test, random_state=42.")
-st.write("Metric: Mean Absolute Error (MAE), the average number of days the prediction is off.
-")
+st.write("Metric: Mean Absolute Error (MAE), the average number of days the prediction is off.")
 st.write("Deployment: the customer enters a category and a state; other inputs are filled with typical values for that category and state.")
 
 #with st.expander("Show details"):
     #st.write("Here are the details...")
-st.image( )
-         
+#st.image( )
 data = pd.read_csv("01_Data/olist_delivery_model.csv")
 
 #added animation to process the data smoothly
