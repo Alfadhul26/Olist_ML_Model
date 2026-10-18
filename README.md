@@ -1,7 +1,7 @@
 # Olist Delivery Time Prediction
 
-Predicts how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public [Olist Brazilian e-commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (96,470 delivered orders, 2016–2018).
-Deployed Model: 
+- Predicts how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public [Olist Brazilian e-commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (96,470 delivered orders, 2016–2018).
+- Deployed Model: https://olitsml.streamlit.app
 
 ## Problem
 Olist shows customers an estimated delivery of **23.7 days**, while orders actually arrive in **12.6 days** on average. A model that predicts delivery time gives customers a shorter, more accurate date.
