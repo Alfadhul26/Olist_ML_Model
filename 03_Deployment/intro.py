@@ -3,6 +3,16 @@ import time
 import pandas as pd
 import numpy as np
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #E6F2FF;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Main page content
 st.markdown("# Olist Delivery Time Prediction")
 st.sidebar.markdown("# Main page")
