@@ -7,6 +7,7 @@ import numpy as np
 st.markdown("# Olist Delivery Time Prediction")
 st.sidebar.markdown("# Main page")
 
+st.image(https://miro.medium.com/v2/resize:fit:720/format:webp/1*1k72mg1_CZvLptX77zzKTg.png)
 #main points of the application
 header = st.container()
 header.write("Aim - Predict how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public Olist Brazilian e-commerce dataset (96,470 delivered orders, 2016–2018)")
