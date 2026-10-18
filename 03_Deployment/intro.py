@@ -6,7 +6,7 @@ import numpy as np
 # Main page content
 st.markdown("# Olist Delivery Time Prediction")
 st.sidebar.markdown("# Main page")
-<img width="300" height="350" alt="image" src="https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51" />
+st.image(<img width="300" height="350" alt="image" src="https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51" />
 
 #st.image(https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51)
 #main points of the application
