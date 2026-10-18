@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Main page content
-st.markdown("#Olist Delivery Time Prediction")
+st.markdown("# Olist Delivery Time Prediction")
 st.sidebar.markdown("# Main page")
 
 #main points of the application
