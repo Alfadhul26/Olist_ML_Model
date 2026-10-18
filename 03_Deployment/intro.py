@@ -1,5 +1,3 @@
-can u fix this structure 
-
 import streamlit as st
 import time
 import pandas as pd
