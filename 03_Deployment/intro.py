@@ -14,7 +14,7 @@ st.image(
 #st.image(https://storage.googleapis.com/kaggle-organizations/1942/thumbnail.png?r=51)
 #main points of the application
 st.header("Aim")
-header.write("Predict how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public Olist Brazilian e-commerce dataset (96,470 delivered orders, 2016–2018)")
+st.write("Predict how many days an order will take to arrive, using only what is known when the customer chooses a product. Built on the public Olist Brazilian e-commerce dataset (96,470 delivered orders, 2016–2018)")
 
 st.header("Methods")
 
